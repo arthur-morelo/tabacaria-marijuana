@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root, a, input, ::placeholder, button{
+    font-family: "Moderustic", sans-serif;
+    font-size: 62.5%;
+
+    --ligh-gray: rgb(98, 98, 98);
+    --black: #000000;
+    --green: #aaa963;
+}
+
+body{
+    background-color: var(--ligh-gray);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    position: static;
+    padding: 20px;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    background-color: var(--green)
+    
+    
+}
+
+header a{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--black);
+    text-decoration: none;
+}
+
+header input{
+    font-size: 1.4rem;
+
+    padding: 2px;
+    border: .2rem solid var(--ligh-gray);
+    border-radius: 2px;
+
+    
+}
+
+header input::placeholder{
+    color: var(--blue);
+    font-size: 1.1rem;
+
+}
+
+h1{
+    text-align: center;
+    color: var(--green);
+}
+
+main{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 5rem;
+   
+}
+
+main .text{
+    width: 25rem;
+
+
+}
+
+main .text p{
+    font-size: 1.5rem;
+    
+}
+
+main .text h1{
+    font-size: 2.5rem;
+}
+
+img{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--green);
+    border-radius: 5px;
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.4rem;
+}
+
+/*footer*/
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    height: 10px;
+}
+
+footer p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--blue);
+
+}
